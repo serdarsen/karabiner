@@ -1,12 +1,10 @@
-# Serdar Sen's Karabiner Elements Configuration
+# @serdarsen's Karabiner Elements Configuration
 
 I'm in the process of creating my own set of keyboard shortcuts to make my Mac usage more similar to Ubuntu. To ensure consistency and organization, I'm following Apple's official [Mac keyboard shortcuts page](https://support.apple.com/en-us/HT201236) for proper naming and categorization.
 
 ## Usage
 
 To use my Karabiner Elements configuration, follow these steps:
-
-Certainly, Serdar. Here's a revised version of that section:
 
 1. Install and configure Karabiner Elements using one of the following methods:
 
