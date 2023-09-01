@@ -1,0 +1,57 @@
+{
+  "title": "Document Shortcuts",
+  "rules": [
+    {
+      "description": "Control–Shift–Left Arrow to Option–Shift–Left Arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_arrow",
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": [
+                "option",
+                "shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Control–Shift–Right Arrow to Option–Shift–Right Arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_arrow",
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": [
+                "option",
+                "shift"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
