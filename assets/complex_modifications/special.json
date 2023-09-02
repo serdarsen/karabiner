@@ -1,0 +1,29 @@
+{
+  "title": "Special character shortcuts",
+  "rules": [
+    {
+      "description": "Grave accent, backtick, back quote",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "backslash",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash",
+              "modifiers": [
+                "right_option"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
