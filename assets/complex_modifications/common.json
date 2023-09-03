@@ -216,6 +216,31 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Control-Y to Shift-Command-Z",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "n",
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
