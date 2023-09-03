@@ -2,6 +2,11 @@
 
 I'm in the process of creating my own set of keyboard shortcuts to make my Mac usage more similar to Ubuntu. To ensure consistency and organization, I'm following Apple's official [Mac keyboard shortcuts page](https://support.apple.com/en-us/HT201236) for proper naming and categorization.
 
+**Keyboard Setup:**
+- Keyboard: Logitech MX Keys
+- Physical Layout: Turkish Q
+- Input Source: Turkish F (enabled)
+
 ## Usage
 
 To use my Karabiner Elements configuration, follow these steps:
