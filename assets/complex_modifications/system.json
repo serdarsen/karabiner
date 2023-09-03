@@ -1,0 +1,29 @@
+{
+  "title": "Finder and system shortcuts",
+  "rules": [
+    {
+      "description": "Control-Left Mouse Button to Command-Left Mouse Button",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button1",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button1",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
