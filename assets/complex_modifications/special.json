@@ -236,6 +236,30 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Hash",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "right_option"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
