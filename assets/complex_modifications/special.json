@@ -168,6 +168,30 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Vertical Pipe",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "equal_sign",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign",
+              "modifiers": [
+                "right_option"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
