@@ -50,6 +50,54 @@
       ]
     },
     {
+      "description": "Open / left bracket",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "8",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": [
+                "right_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Close /right bracket",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [
+                "right_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Grave accent, backtick, back quote",
       "manipulators": [
         {
