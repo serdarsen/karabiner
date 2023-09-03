@@ -6,6 +6,7 @@ I'm in the process of creating my own set of keyboard shortcuts to make my Mac u
 - Keyboard: Logitech MX Keys
 - Physical Layout: Turkish Q
 - Input Source: Turkish F (enabled)
+- Mouse: Logitech G502 HERO
 
 ## Usage
 
