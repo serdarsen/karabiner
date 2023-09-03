@@ -144,6 +144,30 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Back Slash",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "hyphen",
+              "modifiers": [
+                "right_option"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
