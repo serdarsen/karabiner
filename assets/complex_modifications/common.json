@@ -265,6 +265,30 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Control-P to Command-P",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "p",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
