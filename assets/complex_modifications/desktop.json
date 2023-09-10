@@ -100,6 +100,28 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Option to Mission Control",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_option"
+          },
+          "to": [
+            {
+              "key_code": "left_option",
+              "lazy": true
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "mission_control"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
