@@ -194,44 +194,38 @@
       ]
     },
     {
-      "description": "Less Than",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "grave_accent_and_tilde"
-          },
-          "to": [
-            {
-              "key_code": "grave_accent_and_tilde",
-              "modifiers": [
-                "left_option"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Greater Than",
+      "description": "Grave Accent and Tilde to Non US Backslash",
       "manipulators": [
         {
           "type": "basic",
           "from": {
             "key_code": "grave_accent_and_tilde",
             "modifiers": {
-              "mandatory": [
-                "left_shift"
-              ]
+              "optional": ["any"]
             }
           },
           "to": [
             {
-              "key_code": "grave_accent_and_tilde",
-              "modifiers": [
-                "left_shift",
-                "left_option"
-              ]
+              "key_code": "non_us_backslash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Non US Backslash to Grave Accent and Tilde",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "non_us_backslash",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "grave_accent_and_tilde"
             }
           ]
         }
