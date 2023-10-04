@@ -50,7 +50,7 @@
       ]
     },
     {
-      "description": "Open / left bracket",
+      "description": "Open left bracket",
       "manipulators": [
         {
           "type": "basic",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "description": "Close /right bracket",
+      "description": "Close right bracket",
       "manipulators": [
         {
           "type": "basic",
