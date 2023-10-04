@@ -1,0 +1,30 @@
+{
+  "title": "Firefox shortcuts",
+  "rules": [
+    {
+      "description": "Turn off ESC on Firefox",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "escape"
+          },
+          "to": [
+            {
+              "key_code": "escape",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+                "type": "frontmost_application_if",
+                "bundle_identifiers": ["^org\\.mozilla\\.firefox$"]
+            }
+        ]
+        }
+      ]
+    }
+  ]
+}
