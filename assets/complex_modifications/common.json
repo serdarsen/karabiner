@@ -194,30 +194,6 @@
       ]
     },
     {
-      "description": "Command-Tab",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "tab",
-            "modifiers": {
-              "mandatory": [
-                "left_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "tab",
-              "modifiers": [
-                "left_command"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "description": "Control-Y to Shift-Command-Z",
       "manipulators": [
         {
