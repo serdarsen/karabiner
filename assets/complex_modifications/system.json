@@ -24,6 +24,30 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Control-R to Command-R",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "u",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
