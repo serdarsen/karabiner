@@ -48,6 +48,30 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Control-N to Command-N",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "i",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
