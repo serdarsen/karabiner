@@ -2,6 +2,22 @@
   "title": "Cut, copy, paste, and other common Shortcuts",
   "rules": [
     {
+      "description": "Disable Caps Lock",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "to": [
+            {
+              "key_code": "vk_none"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Control-X to Command-X",
       "manipulators": [
         {
