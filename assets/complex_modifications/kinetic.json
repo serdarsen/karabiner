@@ -1,0 +1,29 @@
+{
+  "title": "Kinetic shortcuts",
+  "rules": [
+    {
+      "description": "Override macOS Command+Tab for Kinetic window switcher",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "tab",
+            "modifiers": {
+              "mandatory": ["left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f18"
+            }
+          ],
+          "parameters": {
+            "basic.to_if_alone_timeout_milliseconds": 0
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
