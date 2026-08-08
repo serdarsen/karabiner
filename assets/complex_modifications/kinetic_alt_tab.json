@@ -6,14 +6,12 @@
       "from": {
         "key_code": "tab",
         "modifiers": {
-          "mandatory": ["left_option"],
-          "optional": ["any"]
+          "mandatory": ["left_option"]
         }
       },
       "to": [
         {
-          "key_code": "f18",
-          "modifiers": ["left_option"]
+          "key_code": "f18"
         }
       ],
       "parameters": {
